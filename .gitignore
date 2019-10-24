@@ -1,0 +1,21 @@
+logs/
+npm-debug.log
+node_modules/
+coverage/
+.idea/
+run/
+logs/
+lib/plugin-egg/
+.DS_Store
+.vscode
+*.swp
+*.lock
+!.autod.conf.js
+
+# *.js
+# app/**/*.js
+# test/**/*.js
+# config/**/*.js
+app/**/*.map
+test/**/*.map
+config/**/*.map

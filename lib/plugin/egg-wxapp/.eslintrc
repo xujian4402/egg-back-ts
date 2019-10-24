@@ -1,0 +1,11 @@
+{
+  "extends": "eslint-config-egg",
+  "rules": {
+    "linebreak-style": "off",
+    "trailing-comma": false,
+    "array-bracket-spacing": ["error"],
+    "no-string-literal": false,
+    "comma-dangle": "off",
+    "dot-notation":"off"
+  }
+}
