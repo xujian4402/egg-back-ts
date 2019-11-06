@@ -5,11 +5,9 @@ export default class UserController extends Controller {
     const { ctx } = this;
     // ctx.logger.info(ctx.original_uri);
     ctx.logger.info(ctx.request.tests);
-    // this.app.sessionStore.set('session', 'jgjgjh');
-    ctx.session.user = 'xujian';
-    // throw { user: '4567' };
+    ctx.session.active_user = { user_id: '1234567', test01: '099' };
     ctx.helper.getToken('ertyu');
-    ctx.helper.success(ctx, this.ctx.original_uri);
+    ctx.helper.success(ctx, ctx.session);
     // ctx.body = await ctx.service.test.sayHi('egg');
   }
 }
