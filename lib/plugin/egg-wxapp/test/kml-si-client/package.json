@@ -1,0 +1,64 @@
+{
+  "_from": "git+ssh://git@gitlab.kmlab.com/comm/si-client.git#1.1.0",
+  "_id": "kml-si-client@1.1.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/kml-si-client",
+  "_phantomChildren": {
+    "graceful-fs": "4.2.2",
+    "jsonfile": "4.0.0",
+    "universalify": "0.1.2"
+  },
+  "_requested": {
+    "type": "git",
+    "raw": "git+ssh://git@gitlab.kmlab.com/comm/si-client.git#1.1.0",
+    "rawSpec": "git+ssh://git@gitlab.kmlab.com/comm/si-client.git#1.1.0",
+    "saveSpec": "git+ssh://git@gitlab.kmlab.com/comm/si-client.git#1.1.0",
+    "fetchSpec": "ssh://git@gitlab.kmlab.com/comm/si-client.git",
+    "gitCommittish": "1.1.0"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+ssh://git@gitlab.kmlab.com/comm/si-client.git#461aac83330fed4211bb99a3f12ec0a64fdf0c64",
+  "_spec": "git+ssh://git@gitlab.kmlab.com/comm/si-client.git#1.1.0",
+  "_where": "E:\\LearnCode\\Node\\egg-Coding\\egg-back-ts",
+  "author": {
+    "name": "lintry",
+    "email": "shenlin00@gmail.com"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "fs-extra": "^6.0.1",
+    "kml-api-request": "git+ssh://git@gitlab.kmlab.com/comm/api-request.git#1.2.0",
+    "kml-express-stage-lib": "git+ssh://git@gitlab.kmlab.com/comm/express-stage-lib.git#1.1.0",
+    "kml-si-crypto": "git+ssh://git@gitlab.kmlab.com/lintry/kml-si-crypto.git#1.1.0"
+  },
+  "deprecated": false,
+  "description": "对si-server的api调用方法进行封装",
+  "devDependencies": {
+    "redis": "^2.8.0"
+  },
+  "files": [
+    "adapters/",
+    "api/",
+    "lib/",
+    "index.js",
+    "readme.md",
+    "history.md"
+  ],
+  "keywords": [],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "kml-si-client",
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.kmlab.com:comm/si-client.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.1.0"
+}

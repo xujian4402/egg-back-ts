@@ -14,9 +14,9 @@ const plugin: EggPlugin = {
     enable: true,
     package: 'egg-redis'
   },
-  wxapp: {
+  wxappApi: {
     enable: true,
-    path: path.join(__dirname, '../lib/plugin/egg-wxapp')
+    path: path.join(__dirname, '../lib/plugin/egg-wxapp-api')
   }
 };
 

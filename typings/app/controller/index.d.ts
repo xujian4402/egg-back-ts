@@ -3,9 +3,11 @@
 
 import 'egg';
 import ExportUser from '../../../app/controller/user';
+import ExportWxapp from '../../../app/controller/wxapp';
 
 declare module 'egg' {
   interface IController {
     user: ExportUser;
+    wxapp: ExportWxapp;
   }
 }

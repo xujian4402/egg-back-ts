@@ -4,6 +4,16 @@ export default (appInfo: EggAppInfo) => {
   // tslint:disable-next-line: no-object-literal-type-assertion
   const config = {} as PowerPartial<EggAppConfig>;
 
+  // 关闭csrf
+  config.security = {
+    csrf: {
+      enable: false,
+      ignoreJSON: true,
+    },
+    // 白名单
+    domainWhiteList: [ 'http://localhost:7002' ],
+  };
+
   // override config from framework / plugin
   // use for cookie sign key, should change to your own and keep security
   config.keys = appInfo.name + '_1571638371520_4959';
@@ -45,6 +55,11 @@ export default (appInfo: EggAppInfo) => {
         db: 1
       }
     }
+  };
+
+  config.wxappApi = {
+    api_host: 'https://dev.kmlab.com/wx4api/',
+    strict_mode: false
   };
 
   config.session = {
