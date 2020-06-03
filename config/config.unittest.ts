@@ -6,10 +6,10 @@ export default () => {
   config.sequelize = {
     dialect: 'postgres',
     database: 'egg-test',
-    host: '116.62.229.74',
+    host: '127.0.0.1',
     port: 5432,
     username: 'postgres',
-    password: 'xujian4402'
+    password: 'xujian4402693'
   };
 
   config.logger = {

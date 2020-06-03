@@ -29,7 +29,7 @@ export default class AppBootHook implements IBoot {
   async didReady() {
     // worker准备好了，可以做一些事情
     // don't need to block the app boot.不需要阻止应用程序启动。
-    this.app.logger.info('didReady');
+    this.app.logger.info('didReady',this.app);
     const result = await this.app.curl(
       'https://registry.npm.taobao.org/egg/latest',
       {

@@ -43,15 +43,15 @@ export default (appInfo: EggAppInfo) => {
   config.redis = {
     clients: {
       session: {
-        host: '116.62.229.74',
+        host: '127.0.0.1',
         port: 6379,
-        password: '123456',
+        password: 'xujian4402693',
         db: 0
       },
       wxToken: {
-        host: '116.62.229.74',
+        host: '127.0.0.1',
         port: 6379,
-        password: '123456',
+        password: 'xujian4402693',
         db: 1
       }
     }
